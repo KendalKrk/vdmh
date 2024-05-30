@@ -14,30 +14,34 @@ require_once 'templates/header.php';
 
 </head>
 <body>
-    <div class="container"data-aos="zoom-in-down" data-aos-duration="1000">
-        <h2 style="text-align: center; margin-bottom: 30px;">Contactez-nous</h2>
-        <form action="/submit_form" method="post">
-            <div class="form-group">
-                <label for="name"><h4>Nom:</h4></label>
-                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" require>
-            </div>
-            <div class="form-group">
-                <label for="email"><h4>Email:</h4></label>
-                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" name="email" require>
-            </div>
-            <div class="form-group">
-                <label for="message"><h4>Message:</h4></label>
-                <textarea class="form-control" id="message" placeholder="Entrez votre message" name="message" require ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-    </div>
+<div class="container" data-aos="zoom-in-down" data-aos-duration="1000">
+    <h2 style="text-align: center; margin-bottom: 30px;">Contactez-nous</h2>
+    <form action="send_email.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="name"><h4>Nom:</h4></label>
+            <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email"><h4>Email:</h4></label>
+            <input type="email" class="form-control" id="email" placeholder="Entrez votre email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message"><h4>Message:</h4></label>
+            <textarea class="form-control" id="message" placeholder="Entrez votre message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="file"><h4>Pièce jointe:</h4></label>
+            <input type="file" class="form-control" id="file" name="file">
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+</div>
 
     <div class="infoBox" data-aos="zoom-in-down" data-aos-duration="1000" >
         <h2>Informations de contact</h2>
-        <p>Adresse: 22 Passage Saint Bernard, 75011 Paris</p>
+        <p>Adresse: 81 Avenue Arisitde Briand, 92120 Montrouge</p>
         <p>Téléphone: 01 49 23 06 00</p>
-        <p>Email: contact@vdmh.com
+        <p>Email: rudy@vdmh.com
     </div>
 
     <div class="miniMap" id="map" data-aos="zoom-in-down" data-aos-duration="1000" ></div>
@@ -82,6 +86,33 @@ map.addLayer(layer);
 </html>
 
 <script src="script.js"></script>
+
+
+<!-- <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    $to = 'kendal3@hotmail.fr'; 
+    $subject = 'Nouveau message de votre site web';
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+
+    $body = "Nom: $name\nE-mail: $email\nMessage:\n$message";
+
+    if (mail($to, $subject, $body, $headers)) {
+        echo 'Merci pour votre message !';
+    } else {
+        echo 'Il y a eu une erreur lors de l\'envoi de votre message. Veuillez réessayer.';
+    }
+} else {
+    echo 'Il y a eu une erreur lors de l\'envoi de votre message. Veuillez réessayer.';
+}
+?> -->
+
+
+
 
 <?php
 require_once 'templates/footer.php';

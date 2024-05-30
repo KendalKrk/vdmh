@@ -13,7 +13,7 @@ require_once 'templates/header.php';
         
    
     <div class="content" data-aos="fade-up" data-aos-duration="1000" >
-        <img src="/upload/ing.jpeg" alt="">
+        <img src="/upload/entre.jpeg" alt="">
     </div>
 
 
