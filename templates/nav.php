@@ -30,7 +30,7 @@
           <a class="nav-link active" href="entreprise.php">L'entreprise</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Nos Partenaires</a>
+          <a class="nav-link active" href="clients.php">Nos Clients</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="contact.php">Contact</a>

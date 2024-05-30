@@ -49,7 +49,7 @@
 
 
 #carouselExampleInterval {
-    margin-top: 11px; /* Ajoutez une marge en haut */
+    margin-top: 11px; /* Ajoutez une marge en haut pour decaler de */
   }
   
 
@@ -166,7 +166,7 @@ body {
     background-color: #B0C4DE; /* Couleur de fond grise */
     position: absolute;
     left: 8%;
-    top: 13%;
+    top: 20%;
     padding: 50px;
     width: 500px;
     /* margin: 0 auto; */
@@ -177,7 +177,7 @@ body {
 .miniMap {
     position:relative;
     left: 8%;
-    top: -300px;
+    top: -350px;
     height: 400px;
     width: 500px;
 }
@@ -442,6 +442,12 @@ body {
     margin-top: 80px; 
     margin-bottom: 70px;
   }
+
+
+  .container-part {
+    display: flex;
+    flex-direction: column;
+  }
   
   .container-part > div {
     flex: 1 0 50%; /* Chaque div prend initialement 50% de la largeur */
@@ -465,7 +471,7 @@ body {
 
   
   #part-image img {
-    max-width: 600px; /* Remplacez 300px par la largeur maximale que vous souhaitez */
+    max-width: 80% ; /* Remplacez 300px par la largeur maximale que vous souhaitez */
     max-height: 500px; /* Remplacez 200px par la hauteur maximale que vous souhaitez */
     width: 100%;
     height: auto;
@@ -476,18 +482,101 @@ body {
     left: 110px;
 
   }
-  
-  
-  
-  /* Responsive layout - makes the menu and the content stack on top of each other */
-  @media (max-width: 600px) {
-    .container-part > div {
-      flex: 1 0 100%; /* Chaque div prend 100% de la largeur sur les petits écrans */
-    }
+
+  #section-texte, #part-image {
+    width: 100%;
   }
   
+  
+
+
+
+  @media screen and (min-width: 858px) {
+    .container-part {
+      flex-direction: row;
+    }
+    #section-texte, #part-image {
+      width: 50%;
+    }
+  }
+
+
+
+  @media screen and (max-width: 1333px) {
+    #part-image {
+
+      width: 70%;
+      margin-left: 4%;
+      margin-top: 12%;
+    
+    }
+
+    #section-texte {
+        max-width: 90%;
+        margin-left: 40px;
+      }
+  }
 
 
 
 
 
+.container-cl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 1%;
+    max-width: 100%;
+  }
+
+
+
+  
+  .image-text {
+    width: 80%; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .image-text img {
+    margin-right: 5px;
+    border-radius: 10%;
+  }
+
+
+
+
+
+
+  .marquee {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    /* background: #fefefe; */
+    color: #333;
+   
+}
+.marquee p {
+    white-space: nowrap;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform:translateX(100%);
+    /* Apply animation to this element */  
+    animation: scrolling 20s linear infinite;
+}
+.marquee img {
+    display: inline-block;
+    margin-right: 30px;
+}
+/* Move it (define the animation) */
+@keyframes scrolling {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
