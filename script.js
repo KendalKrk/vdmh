@@ -42,7 +42,7 @@ window.onload = function() {
     });
 
     // Appliquer l'animation via CSS
-    imagesDiv.style.animationDuration = '30s'; // Ajuster cette valeur pour changer la vitesse
+    imagesDiv.style.animationDuration = '50s'; // Ajuster cette valeur pour changer la vitesse
 };
 
 
