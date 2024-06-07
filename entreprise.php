@@ -7,13 +7,13 @@ require_once 'templates/header.php';
 
     <div class="header">
         <h1><strong>             Types d'interventions & projets             </strong></h1>
-        <!-- <button>Contacter un expert</button> -->
+        
     </div>
     <body>
         
    
     <div class="content" data-aos="fade-up" data-aos-duration="1000" >
-        <img src="/upload/entre.jpeg" alt="">
+        <img src="/upload/lo.jpeg" alt="">
     </div>
 
 
@@ -53,7 +53,7 @@ La MOE conçoit, développe et assure la qualité du projet en collaboration ave
   </div>
   
   <div id="part-image">
-    <img src="/upload/lgt.jpeg" alt="Votre Image" style="width:100%;">
+    <img src="/upload/trt.jpeg" alt="Votre Image" style="width:100%;">
   </div>
 </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

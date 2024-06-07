@@ -41,7 +41,7 @@ require_once 'templates/header.php';
         <h2>Informations de contact</h2>
         <p>Adresse: 81 Avenue Arisitde Briand, 92120 Montrouge</p>
         <p>Téléphone: 01 49 23 06 00</p>
-        <p>Email: rudy@vdmh.com
+        <p>Email: gestion@vdmh.com
     </div>
 
     <div class="miniMap" id="map" data-aos="zoom-in-down" data-aos-duration="1000" ></div>

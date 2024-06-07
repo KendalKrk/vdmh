@@ -11,7 +11,7 @@ require_once 'templates/header.php';
 <h1 style="text-align:center; padding:50px; color: #1e4f83;">Votre satisfaction, notre passion. Ensemble, créons l’extraordinaire.</h1>
 
 <div class="review" data-aos="fade-up" data-aos-duration="1000">
-    <img src="/upload/cltss.jpeg" alt="">
+    <img src="/upload/review.jpeg" alt="">
 </div>
 
 
@@ -45,14 +45,14 @@ require_once 'templates/header.php';
 
 <div class="marquee">
     <div id="images">
-        <img src="/upload/crd.jpeg" alt="Logo 6" style="max-height: 150px;">
-        <img src="/upload/ntx.jpeg" alt="Logo 1" style="max-height: 150px;"> 
-        <img src="/upload/frtv.jpeg" alt="Logo 2" style="max-height: 150px;"> 
-        <img src="/upload/mdp.jpeg" alt="Logo 3" style="max-height: 150px;">
-        <img src="/upload/lcl.jpeg" alt="Logo 4" style="max-height: 150px;">
-        <img src="/upload/amd.jpeg" alt="Logo 5" style="max-height: 150px;">
-        <img src="/upload/sg.jpeg" alt="Logo 7" style="max-height: 150px;">
-        <img src="/upload/hp.jpeg" alt="Logo 8" style="max-height: 150px;">
+        <img src="/upload/crd.jpeg" alt="Logo 6" style="max-height: 130px;  ">
+        <img src="/upload/ntx.jpeg" alt="Logo 1" style="max-height: 130px;"> 
+        <img src="/upload/frtv.jpeg" alt="Logo 2" style="max-height: 130px;"> 
+        <img src="/upload/mdp.jpeg" alt="Logo 3" style="max-height: 130px;">
+        <img src="/upload/lcl.jpeg" alt="Logo 4" style="max-height: 130px;">
+        <img src="/upload/amd.jpeg" alt="Logo 5" style="max-height: 130px;">
+        <img src="/upload/sg.jpeg" alt="Logo 7" style="max-height: 130px;">
+        <img src="/upload/hp.jpeg" alt="Logo 8" style="max-height: 130px;">
     </div>
 </div>
 

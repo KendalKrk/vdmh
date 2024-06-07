@@ -1,55 +1,51 @@
 
-/* Ajoutez ces styles à votre fichier style.css */
 #presentation {
     width: 50%;
     position: relative;
-    top: 200px; /* Ajustez cette valeur pour le décalage vers le bas */
-    left: 50px; /* Ajustez cette valeur pour le décalage vers la droite */
+    top: 200px;
+    left: 50px; 
 }
 
 
 #presentation p {
     color: #1e4f83;
-    text-align: justify; /* Justifier le texte */
-    max-width: 100%; /* Limiter la largeur du texte */
+    text-align: justify; 
+    max-width: 100%; 
 }
 
 .custom-text {
-    /* Couleur du texte en bleu */
-     /* Texte en gras */
-    font-size: 20px; /* Taille de police personnalisée */
-    font-family:'Times New Roman', Times, serif /* Police de caractères personnalisée */
-    /* Ajoutez d'autres propriétés CSS selon vos besoins */
+    
+    font-size: 20px; 
+    font-family:'Times New Roman', Times, serif 
 }
 
 .pls {
-    width: 500px; /* Largeur de l'image */
-    height: 400px; /* Hauteur de l'image */
-    position: relative; /* Position relative pour pouvoir utiliser les propriétés top, bottom, left, right */
+    width: 500px; 
+    height: 400px; 
+    position: relative; 
 }
 
 .pls img {
-    width: 100%; /* Pour que l'image remplisse entièrement le conteneur */
-    height: 100%; /* Pour que l'image remplisse entièrement le conteneur */
-    object-fit: cover; /* Pour redimensionner l'image tout en conservant son ratio */
-    position: relative; /* Position absolue par rapport au conteneur */
-    top: -150px; /* Position en haut */
-    left: 190%; /* Position à gauche */
-    /* Vous pouvez ajuster les valeurs de top et left pour positionner l'image comme vous le souhaitez */
-    border-radius: 10px; /* Pour arrondir les coins de l'image */
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Pour ajouter une ombre à l'image */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    position: relative; 
+    top: -150px; 
+    left: 190%; 
+    border-radius: 10px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
 }
 
 
 
 
 .carousel-item {
-    height: 400px; /* Ajustez cette valeur selon vos besoins */
+    height: 400px; 
 }
 
 
 #carouselExampleInterval {
-    margin-top: 11px; /* Ajoutez une marge en haut pour decaler de */
+    margin-top: 11px; 
   }
   
 
@@ -60,8 +56,8 @@
 }
 
 #carouselExampleInterval {
-    margin-left: 1%;  /* Ajoutez une marge à gauche */
-    margin-right: 1%; /* Ajoutez une marge à droite */
+    margin-left: 1%;  
+    margin-right: 1%; 
 }
 
 
@@ -238,48 +234,16 @@ body {
     
 }
 
-.footer {
-   /* Style pour le pied de page */
-}
-
-.logos img {
-   /* Style pour les logos */
-}
-
-
-
-/* @media (max-width: 600px) {
-    #presentation {
-      width: 100%;
-      padding: 20px;
-    }
-    .pls img {
-      width: 100%;
-      height: auto;
-    }
-    .img-flex-container {
-      flex-direction: column;
-    }
-    .img-flex-container img {
-      width: 100%;
-      height: auto;
-      margin: 0;
-    }
-    footer {
-      font-size: 14px;
-    }
-  } */
-
   @media (max-width: 600px) {
     .carousel-item img {
       width: 100%;
       height: auto;
     }
     .carousel-inner {
-      height: 300px; /* adjust the height as needed */
+      height: 300px; 
     }
     .carousel-indicators {
-      bottom: -20px; /* adjust the position as needed */
+      bottom: -20px; 
     }
   }
 
@@ -293,11 +257,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 94%; /* Ajustez cette valeur pour régler la largeur de la div */
-    height: 95vh; /* Ajustez cette valeur pour régler la hauteur de la div */
-     /* Ajustez cette valeur pour régler l'épaisseur de la div */
-    margin: 0 auto; /* Centrer le conteneur sur la page */
-    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur et la hauteur */
+    width: 94%; 
+    height: 95vh; 
+    margin: 0 auto; 
+    box-sizing: border-box; 
     top:-60px;
     position: relative;
 }
@@ -327,7 +290,7 @@ body {
 }
 
 .rounded {
-    border-radius: 40px; /* Ajustez cette valeur pour déterminer le degré d'arrondi */
+    border-radius: 40px; 
 }
 
 
@@ -339,12 +302,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; /* Ajustez cette valeur en fonction de vos besoins */
+    height: 10vh; 
 }
 
 .header h1 {
-    margin-top: 80px; /* Ajustez cette valeur pour positionner le texte plus bas */
-    color: #1e4f83; /* Couleur du texte en bleu */
+    margin-top: 80px; 
+    color: #1e4f83; 
 }
 
 
@@ -373,8 +336,8 @@ body {
     align-items: center;
     border: #1e4f83;
     border-radius: 10px;
-    margin: 20px; /* Espaces entre les cartes */
-    transition: all 0.7s ease; /* Animation de transition */
+    margin: 20px; 
+    transition: all 0.7s ease; 
     overflow: auto;
 }
 
@@ -387,47 +350,47 @@ body {
 }
 
 .card.expanded {
-    height: 36rem; /* Largeur de la carte agrandie */
+    height: 36rem; 
 }
 
 .card-text {
     text-align: center;
     margin-top: 10px;
-    line-height: 1.6; /* Espacement vertical entre les lignes de texte */
-    padding: 0 20px; /* Ajoute une marge des deux côtés du texte */
+    line-height: 1.6; 
+    padding: 0 20px; 
 }
 
 
 
 @media (max-width: 320px) {
     .card {
-        width: 100%; /* Largeur de la carte pour les iPhones plus petits */
+        width: 100%; 
     }
 }
 
-/* Pour les tablettes et les petits ordinateurs (plus de 768px) */
+
 @media (min-width: 768px) {
     .card {
-        width: 45%; /* Largeur de la carte pour les tablettes et les petits ordinateurs */
+        width: 45%; 
     }
 }
 
-/* Pour les grands ordinateurs (plus de 1024px) */
+
 @media (min-width: 1024px) {
     .card {
-        width: 45%; /* Largeur de la carte pour les grands ordinateurs */
+        width: 45%; 
     }
 }
 
 @media (min-width: 1182px) {
     .card {
-        width: 42%; /* Largeur de la carte pour les grands ordinateurs */
+        width: 42%;
     }
 }
 
 @media (min-width: 1334px) {
     .card {
-        width: 22%; /* Largeur de la carte pour les grands ordinateurs */
+        width: 22%; 
     }
 }
 
@@ -449,16 +412,16 @@ body {
   }
   
   .container-part > div {
-    flex: 1 0 50%; /* Chaque div prend initialement 50% de la largeur */
+    flex: 1 0 50%; 
     padding: 10px;
-    box-sizing: border-box; /* Inclut la marge et la bordure dans la largeur/hauteur de l'élément */
+    box-sizing: border-box; 
   }
   
   #section-texte {
-    color: #1e4f83; /* Change la couleur du texte en bleu */
-    font-family:'Times New Roman', Times, serif; /* Change la police du texte en Arial */
+    color: #1e4f83; 
+    font-family:'Times New Roman', Times, serif; 
     font-size: 20px;
-    text-align: justify; /* Justifie le texte */
+    text-align: justify; 
     position: relative;
     left: 30px;
     top: 40px;
@@ -470,13 +433,13 @@ body {
 
   
   #part-image img {
-    max-width: 80% ; /* Remplacez 300px par la largeur maximale que vous souhaitez */
-    max-height: 500px; /* Remplacez 200px par la hauteur maximale que vous souhaitez */
+    max-width: 80% ; 
+    max-height: 500px; 
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 10px; /* Pour arrondir les coins de l'image */
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Pour ajouter une ombre à l'image */
+    border-radius: 10px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
     position: relative;
     left: 110px;
 
