@@ -29,7 +29,7 @@
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
-    position: relative; 
+    position: absolute; 
     top: -150px; 
     left: 190%; 
     border-radius: 10px; 
@@ -562,3 +562,88 @@ body {
     object-fit: cover; 
     border-radius: 1%;
 }
+
+
+
+
+
+.img-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+.img-responsive {
+    width: 465px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 700px;
+}
+
+@media (max-width: 1388px) {
+    .pls img {
+        width: 80%;
+        margin-left: -15%;
+    }
+    .img-responsive {
+        width: 30%;
+        height: auto;
+        margin: 1%;
+        margin-left: -2%;
+    }
+}
+
+@media (max-width: 1309px) {
+    .pls img {
+        width: 80%;
+        margin-left: -30%;
+    }
+}
+
+@media (max-width: 1241px) {
+    .pls img {
+        width: 80%;
+        margin-left: -45%;
+    }
+}
+@media (max-width: 1372px) {
+    .rounded.img-responsive-1 {
+        margin-left: 5%; /* Décaler l'image de 10% vers la droite */
+        width: 45%; /* Élargir l'image à 90% */
+        height: auto; /* Permettre à la hauteur de changer proportionnellement à la largeur */
+    }
+    .rounded.img-responsive-2 {
+        /* margin-left: 5%;  */
+        width: 45%; /* Élargir l'image à 90% */
+        height: auto; 
+    }
+    .rounded.img-responsive-3 {
+        margin-left: 30%; 
+        width: 45%; /* Élargir l'image à 90% */
+        height: auto; 
+    }
+    #textmis {
+        left: 40%;
+        width: 100%;
+    }
+}
+
+
+
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1130px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .pls {
+        order: -1; /* Faire passer l'image au-dessus du texte */
+    }
+}
+

@@ -1,3 +1,5 @@
+    
+    
     <?php
     require_once 'templates/header.php';
     ?>
@@ -11,15 +13,7 @@
 <body>
     
 
-    <style>
-        @media (max-width: 600px) {
-            .carousel-item img {
-                width: 100%;
-            }
-            
-        
-        }
-    </style>
+
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="2000">
         <div class="carousel-inner">
@@ -67,11 +61,12 @@
 
 
 
-        <div class="img-flex-container" style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 50px; margin-top: -50px">
-    <img src="/upload/infra.jpeg" class="rounded" alt="..." style="width: 465px; height:auto; margin-right: 20px; border-radius: 700px;" data-aos="fade-up" data-aos-delay="400">
-    <img src="/upload/ttr.jpeg" class="rounded" alt="..." style="width:465px; height:auto;margin-right: 20px; border-radius: 400px;" data-aos="fade-up" data-aos-delay="600">
-    <img src="/upload/nex.jpeg" class="rounded" alt="..." style="width: 465px; height:auto; border-radius: 80px;" data-aos="fade-up" data-aos-delay="800">
+        <div class="img-flex-container">
+    <img src="/upload/infraa.jpeg" class="rounded img-responsive-1" alt="..." data-aos="fade-up" data-aos-delay="400">
+    <img src="/upload/ttrr.jpeg" class="rounded img-responsive-2 " alt="..." data-aos="fade-up" data-aos-delay="600">
+    <img src="/upload/nexx.jpeg" class="rounded img-responsive-3" alt="..." data-aos="fade-up" data-aos-delay="800">
 </div>
+
 
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
