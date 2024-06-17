@@ -18,13 +18,13 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="2000">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="/upload/mtnn.jpeg" class="d-block w-100 " alt="...">
+                <img src="upload/mtnn.jpeg" class="d-block w-100 " alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="/upload/courb.jpeg" class="d-block w-100 " alt="...">
+                <img src="upload/courb.jpeg" class="d-block w-100 " alt="...">
             </div>
             <div class="carousel-item">
-                <img src="/upload/synergiss.jpeg" class="d-block w-100 " alt="...">
+                <img src="upload/synergiss.jpeg" class="d-block w-100 " alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -45,7 +45,7 @@
   </div>
   
   <div id="part-image"data-aos="fade-left" data-aos-duration="2000">
-    <img src="/upload/ml.jpeg" alt="Votre Image" style="width:100%;">
+    <img src="upload/ml.jpeg" alt="Votre Image" style="width:100%;">
   </div>
 </div>
 
