@@ -65,32 +65,28 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 100%;
     margin-top: -50px;
 }
 
 .img-flex-container img {
-    width: 100%;
+    width: 10%;
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #textmis h1 {
     color: #1e4f83;
     font-size: 50px;
-}
-
-#textmis H1 {
-    color: #1e4f83;
+    position: relative;
     top: 60px; 
     left: 40px;  
-    position: relative;
     font-family:'Times New Roman', Times, serif 
 }
 
 #textmis {
     position: relative;
-    top: -100px;
-    left: 600px; 
+    top: -90px;
+    left: 800px; 
     width: 500px; 
     margin-bottom: 100px;
 }
@@ -159,7 +155,7 @@ body {
 }
 
 .infoBox {
-    background-color: #dcd5b5; /* Couleur de fond grise */
+    background-color: #B0C4DE; 
     position: absolute;
     left: 8%;
     top: 20%;
@@ -424,7 +420,7 @@ body {
     text-align: justify; 
     position: relative;
     left: 30px;
-    top: 40px;
+    top: 100px;
 
     
   }
@@ -434,14 +430,15 @@ body {
   
   #part-image img {
     max-width: 80% ; 
-    max-height: 500px; 
-    width: 100%;
-    height: auto;
+    max-height: 800px; 
+    /* width: 80%; */
+    height: 5OOpx;
     object-fit: cover;
     border-radius: 10px; 
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
     position: relative;
-    left: 110px;
+    left: 150px;
+    top: -30px;
 
   }
 
@@ -610,18 +607,18 @@ body {
 }
 @media (max-width: 1372px) {
     .rounded.img-responsive-1 {
-        margin-left: 5%; /* Décaler l'image de 10% vers la droite */
-        width: 45%; /* Élargir l'image à 90% */
-        height: auto; /* Permettre à la hauteur de changer proportionnellement à la largeur */
+        margin-left: 5%; 
+        width: 45%; 
+        height: auto; 
     }
     .rounded.img-responsive-2 {
-        /* margin-left: 5%;  */
-        width: 45%; /* Élargir l'image à 90% */
+        
+        width: 45%;
         height: auto; 
     }
     .rounded.img-responsive-3 {
         margin-left: 30%; 
-        width: 45%; /* Élargir l'image à 90% */
+        width: 45%; 
         height: auto; 
     }
     #textmis {
@@ -643,7 +640,7 @@ body {
         flex-direction: column;
     }
     .pls {
-        order: -1; /* Faire passer l'image au-dessus du texte */
+        order: -1; 
     }
 }
 

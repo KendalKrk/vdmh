@@ -37,9 +37,19 @@
         </button>
     </div>
 
+    <div class="container-part"data-aos="fade-up" data-aos-duration="2000">
+  <div id="section-texte">
+    <p><strong>Le Groupe VDMH</strong>  exerce l'activité de Conseil et d'Ingénierie en Systèmes d'Information depuis 1987 en apportant à ses clients la <strong>COMPETENCE</strong> et la <strong>FIABILITE</strong>, deux atouts essentiels à son activité pour mener à bien ses projets.
+    Les consultants du <strong>Groupe VDMH</strong> sont tous expérimentés, et possèdent un ou plusieurs champs d'action ciblés, sur lesquels nos clients peuvent se reposer afin de mener à bien leurs projets.
+    Leurs points forts sont l'approche <strong>Méthodologique</strong> forte et l'intégration rapide aux équipes en place, que ce soit sur des interventions de Pilotage de projets, de Maitrise d'ouvrage, de développement ou de Support.</p>
+  </div>
+  
+  <div id="part-image"data-aos="fade-left" data-aos-duration="2000">
+    <img src="/upload/ml.jpeg" alt="Votre Image" style="width:100%;">
+  </div>
+</div>
 
-
-        <div id="presentation" data-aos="fade-up" data-aos-duration="2000" >
+        <!-- <div id="presentation" data-aos="fade-up" data-aos-duration="2000" >
             <p class="custom-text">Le <strong>Groupe VDMH</strong>  exerce l'activité de Conseil et d'Ingénierie en Systèmes d'Information depuis 1987 en apportant à ses clients la <strong>COMPETENCE</strong> et la <strong>FIABILITE</strong>, deux atouts essentiels à son activité pour mener à bien ses projets.
             Les consultants du <strong>Groupe VDMH</strong> sont tous expérimentés, et possèdent un ou plusieurs champs d'action ciblés, sur lesquels nos clients peuvent se reposer afin de mener à bien leurs projets.
         Leurs points forts sont l'approche <strong>Méthodologique</strong> forte et l'intégration rapide aux équipes en place, que ce soit sur des interventions de Pilotage de projets, de Maitrise d'ouvrage, de développement ou de Support.</p>
@@ -52,7 +62,7 @@
 
         <div class="pls" data-aos="fade-left" data-aos-duration="2000">
         <img src="/upload/ml.jpeg" alt="">
-    </div>
+    </div> -->
 
 
         <div id="textmis" data-aos="fade-up" data-aos-delay="400">
